@@ -20,6 +20,8 @@ func powerOf2(inputArray [10]int) [10]int {
 		arrayCopy[i] = arrayCopy[i] * arrayCopy[i]
 	}
 
+	fmt.Printf("Original array:\n%v\nCopied array:\n%v\n", inputArray, arrayCopy)
+
 	return arrayCopy
 }
 
